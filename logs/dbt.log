@@ -1,0 +1,96 @@
+[0m11:53:00.654758 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BACD19B970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BACCAB5E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BACF8A1E50>]}
+
+
+============================== 11:53:00.658758 | 89ee6e5c-df3a-4d29-8b2f-29ba380372d5 ==============================
+[0m11:53:00.658758 [info ] [MainThread]: Running with dbt=1.7.17
+[0m11:53:00.660759 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\viselvar\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:53:00.661759 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/viselvar/.dbt')}
+[0m11:53:00.662759 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m11:53:13.621045 [debug] [MainThread]: Starter project path: C:\Users\viselvar\dbt_workspace\dbt_venv\lib\site-packages\dbt\include\starter_project
+[0m11:53:13.660663 [info ] [MainThread]: 
+Your new dbt project "dbt_sample_prj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:53:13.666155 [info ] [MainThread]: Setting up your profile.
+[0m11:53:19.648572 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m11:53:19.652096 [debug] [MainThread]: Command `dbt init` succeeded at 11:53:19.652096 after 19.22 seconds
+[0m11:53:19.654094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BACD19B970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BACF8949D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BACF8DF760>]}
+[0m11:53:19.655083 [debug] [MainThread]: Flushing usage events
+[0m11:53:34.015055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002309B718A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002309DE31EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002309DE311F0>]}
+
+
+============================== 11:53:34.020080 | a29cacd8-3516-40e3-a715-536342c17cd4 ==============================
+[0m11:53:34.020080 [info ] [MainThread]: Running with dbt=1.7.17
+[0m11:53:34.021060 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\viselvar\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:53:40.343088 [debug] [MainThread]: Starter project path: C:\Users\viselvar\dbt_workspace\dbt_venv\lib\site-packages\dbt\include\starter_project
+[0m11:53:40.397573 [info ] [MainThread]: 
+Your new dbt project "dbt_sample_fabric" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:53:40.401568 [info ] [MainThread]: Setting up your profile.
+[0m11:53:42.454038 [info ] [MainThread]: No sample profile found for fabric.
+[0m11:53:42.457945 [debug] [MainThread]: Command `dbt init` succeeded at 11:53:42.456946 after 8.68 seconds
+[0m11:53:42.458979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002309B718A00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002309DE31EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002309DE3BE50>]}
+[0m11:53:42.459945 [debug] [MainThread]: Flushing usage events
+[0m16:54:39.482548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DF177A610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DF3EBFE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DF3EB0790>]}
+
+
+============================== 16:54:39.497144 | a65427e6-60c5-47e7-967b-6ea229cc4c99 ==============================
+[0m16:54:39.497144 [info ] [MainThread]: Running with dbt=1.7.17
+[0m16:54:39.500278 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\viselvar\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:54:47.375826 [info ] [MainThread]: A project called dbt_sample_prj already exists here.
+[0m16:54:47.381822 [debug] [MainThread]: Command `dbt init` succeeded at 16:54:47.380822 after 8.37 seconds
+[0m16:54:47.383823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DF177A610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DF3EBFCA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020DF3EDE520>]}
+[0m16:54:47.386832 [debug] [MainThread]: Flushing usage events
+[0m16:58:25.027650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EB5151340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EB78530D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EB78534F0>]}
+
+
+============================== 16:58:25.044647 | f84fde84-28f6-428e-80e4-f7e817f33816 ==============================
+[0m16:58:25.044647 [info ] [MainThread]: Running with dbt=1.7.17
+[0m16:58:25.062718 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\viselvar\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:59:29.000534 [debug] [MainThread]: Starter project path: C:\Users\viselvar\dbt_workspace\dbt_venv\lib\site-packages\dbt\include\starter_project
+[0m16:59:29.086012 [info ] [MainThread]: 
+Your new dbt project "dbt_sample_prj" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:59:29.090013 [info ] [MainThread]: Setting up your profile.
+[0m16:59:32.620097 [info ] [MainThread]: No sample profile found for sqlserver.
+[0m16:59:32.624108 [debug] [MainThread]: Command `dbt init` succeeded at 16:59:32.623109 after 68.38 seconds
+[0m16:59:32.627112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EB5151340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EB789D6A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026EB789D100>]}
+[0m16:59:32.630119 [debug] [MainThread]: Flushing usage events
